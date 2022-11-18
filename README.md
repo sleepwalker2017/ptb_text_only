@@ -28,12 +28,12 @@ dataset_info:
     dtype: string
   config_name: penn_treebank
   splits:
-  - name: test
-    num_bytes: 453710
-    num_examples: 3761
   - name: train
     num_bytes: 5143706
     num_examples: 42068
+  - name: test
+    num_bytes: 453710
+    num_examples: 3761
   - name: validation
     num_bytes: 403156
     num_examples: 3370
